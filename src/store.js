@@ -1,4 +1,6 @@
 // from redux library need to import create store
-import { createStore } from "redux";
+import { applyMiddleware, createStore } from "redux";
+import thunk from "redux-thunk";
+import notesReducer from "./reducers/notesReducer";
 
-export default createStore(reducer, applyMiddleware(thunk))
+export default createStore(notesReducer, applyMiddleware(thunk))
