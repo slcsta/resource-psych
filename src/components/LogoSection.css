@@ -7,10 +7,10 @@ video {
 }
 
 .logo-container {
-    background: center center/cover;
+    background: center center/cover no-repeat;
     height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
-    
+
 }
