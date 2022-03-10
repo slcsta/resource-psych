@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.home,
+.meet-dr-soden,
+.treatment,
+.scheduling,
+.faq {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+.meet-dr-soden {
+    color: #fff;
+}
+
+.treatment {
+    color: #fff;
+}
+
+.scheduling {
+    color: #fff;
+}
+
+.faq {
+    color: #fff;
+}
