@@ -1,0 +1,16 @@
+video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+.logo-container {
+    background: center center/cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
