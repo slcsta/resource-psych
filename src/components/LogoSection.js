@@ -1,11 +1,15 @@
 import React from 'react';
+import './LogoSection.css'
+import '../App.css'
 
 function LogoSection() {
     return (
         <div className='logo-container'>
-            <video src="/videos/video-1.mp4" autoPlay loop muted />
+            <video src="/videos/field-video-1.mp4" autoPlay loop muted />
             <h1>Resource Psychiatry</h1>
         </div>
 
-    )
+    );
 }
+
+export default LogoSection;
