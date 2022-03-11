@@ -45,8 +45,8 @@ function Navbar() {
                             <Link to='/scheduling' className='nav-links' onClick={closeMobileMenu}>Scheduling</Link></li>
                         <li className='nav-item'> 
                             <Link to='/faqs' className='nav-links' onClick={closeMobileMenu}>FAQs</Link></li>
-                        <li><Link to='/new-patients' className='nav-links-mobile' onclick={closeMobileMenu}>New Patients</Link></li>
-                        <li><Link to='/current-patients' className='nav-links-mobile' onclick={closeMobileMenu}>Current Patients</Link></li>
+                        <li><a target="_blank" href="https://luminello.com/features/patient-client-portal/"  className='nav-links-mobile' onclick={closeMobileMenu}>New Patients</a></li>
+                        <li><a target="_blank" href="https://app2.luminello.com/auth/login" className='nav-links-mobile' onclick={closeMobileMenu}>Current Patients</a></li>
                     </ul>
                     {button && <Button buttonStyle='btn--outline'>New Patients</Button>}
                     {button && <Button buttonStyle='btn--outline'>Current Patients</Button>}

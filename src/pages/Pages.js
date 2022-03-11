@@ -14,10 +14,8 @@ function Pages() {
                 <Route path="/" element={<Home/>}/>
                 <Route path="/meet-dr-soden" element={<MeetDrSoden/>}/>
                 <Route path="/treatment" element={<Treatment/>}/>
-                <Route path="/scheduling" component={Scheduling}/>
-                <Route path="/faqs" component={Faqs} />
-                <Route path="/new-patients" element={<NewPatients/>}/>
-                <Route path="/current-patients" element={<CurrentPatients/>}/>
+                <Route path="/scheduling" element={<Scheduling/>}/>
+                <Route path="/faqs" element={<Faqs/>}/>
             </Routes>
         </>
     );

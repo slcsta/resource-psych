@@ -1,6 +1,5 @@
 import React from 'react';
 import './Button.css'
-import { Link } from 'react-router-dom'
 
 const STYLES = ['btn--primary', 'btn--outline'];
 
@@ -12,7 +11,7 @@ export const Button = ({children, type, onClick, buttonStyle, buttonSize}) => {
     const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
 
     return (
-        <Link to='/new-patients' className='btn-mobile'>
+        <a href="https://luminello.com/features/patient-client-portal/" className='btn-mobile'>
             <button
                 className={`btn ${checkButtonStyle} ${checkButtonSize}`}
                 onClick={onClick}
@@ -20,6 +19,6 @@ export const Button = ({children, type, onClick, buttonStyle, buttonSize}) => {
             >
                 {children}
             </button>
-        </Link>
+        </a>
     )
 };
