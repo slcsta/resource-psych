@@ -1,4 +1,5 @@
-import LogoSection from '../LogoSection';
+import React from 'react';
+import LogoSection from '../components/LogoSection';
 
 function Home() {
     return (
