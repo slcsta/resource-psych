@@ -1,10 +1,10 @@
 import './App.css';
 import Navbar from './components/Navbar';
-import Pages from './Pages'
+import Pages from './pages/Pages'
 
 function App() {
   return (
-    <div className="App">
+    <div>
         <Navbar />
         <Pages />
     </div>
