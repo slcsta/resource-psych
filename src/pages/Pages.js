@@ -12,8 +12,8 @@ function Pages() {
         <>
             <Routes>
                 <Route path="/" element={<Home/>}/>
-                <Route path="/meet-dr-soden" component={MeetDrSoden}/>
-                <Route path="/treatment" component={Treatment}/>
+                <Route path="/meet-dr-soden" element={<MeetDrSoden/>}/>
+                <Route path="/treatment" element={<Treatment/>}/>
                 <Route path="/scheduling" component={Scheduling}/>
                 <Route path="/faqs" component={Faqs} />
             </Routes>

@@ -6,7 +6,13 @@ function CardItem() {
         <>
             <li className="cards_item">
                 <Link className="cards_item_link">
-                    <figure
+                    <figure className='cards_item_link'>
+                        <img src='/' alt='Some Image'
+                        className='cards_item_img' />    
+                    </figure>
+                    <div className='cards_item_info'>
+                        <h5 className='cards_item_text' />
+                    </div>
                 </Link>
             </li>
         
