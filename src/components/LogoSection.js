@@ -6,9 +6,8 @@ function LogoSection() {
     return (
         <div className='logo-container'>
             <video src="/videos/field-video-1.mp4" autoPlay loop muted />
-            <h1>Resource Psychiatry</h1>
+            <h1>Resource Family Psychiatry</h1>
         </div>
-
     );
 }
 
