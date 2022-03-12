@@ -1,11 +1,14 @@
 import React from 'react';
+import '../App.css';
 import LogoSection from '../components/LogoSection';
-import '../App.css'
+import Cards from '../components/Cards';
+
 
 function Home() {
     return (
         <>
             <LogoSection />
+            <Cards />
         </>
     );
 }
