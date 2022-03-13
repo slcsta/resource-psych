@@ -1,14 +1,14 @@
 import React from 'react';
-import CardItem from './CardItem';
 import './Cards.css';
+import CardItem from './CardItem';
 
 function Cards() {
     return (
         <div className='cards'>
-            <h1>More Information</h1>
-            <div className='cards_container'>
-                <div className='cards_wrapper'>
-                    <ul className='cards_items'>
+            <h1>Get Started</h1>
+            <div className='cards__container'>
+                <div className='cards__wrapper'>
+                    <ul className='cards__items'>
                         <CardItem 
                             src='images/img-1.jpg'
                             text='Meet Dr. Soden'
@@ -21,8 +21,8 @@ function Cards() {
                             label='Treatment'
                             path='/treatment'
                         />
-                        </ul>
-                        <ul className='cards_items'>
+                        {/* </ul>
+                        <ul className='cards_items'> */}
                         <CardItem 
                             src='images/img-3.jpg'
                             text='Scheduling'
