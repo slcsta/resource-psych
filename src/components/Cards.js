@@ -17,9 +17,9 @@ function Cards() {
                         />
                         <CardItem 
                             src='images/img-2.jpg'
-                            text='Treatement'
-                            label='Treatment'
-                            path='/treatment'
+                            text='Services'
+                            label='Services'
+                            path='/services'
                         />
                         {/* </ul>
                         <ul className='cards_items'> */}
