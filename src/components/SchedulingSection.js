@@ -1,22 +1,17 @@
 import React from 'react';
 import './SchedulingSection.css'
 import '../App.css'
-import ContactForm from './ContactForm'
+import ContactForm from './ContactForm.js'
+
 
 function SchedulingSection() {
     return (
         <>
             <div className='scheduling-container'>
                 <h1>Scheduling</h1>
+                <h2>Add Button Links to Luminello</h2><br></br>
+                <h2>Contact Us</h2>
                 <ContactForm />
-                <h2>Add Button Links to Luminello</h2>
-                <h2>Email form</h2>
-                <div className="input-areas">
-                    <form>
-                        
-                    </form>
-                </div>
-
             </div>
         </>
 
