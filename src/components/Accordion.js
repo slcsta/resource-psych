@@ -14,7 +14,14 @@ const Accordion = () => {
         <IconContext.Provider value={{ color: '#000FFB9', size: '25px'}}>
             <AccordionSection>
                 <AccordionContainer>
-                    {}
+                    {AccordionData.map((item, index) => {
+                        return (
+                            <>
+                            <h1>{item.question}</h1>
+                            <p>{item.answer}</p>
+                            </>
+                        )
+                    })}
                 </AccordionContainer>
             </AccordionSection >
         </IconContext.Provider>
