@@ -12,7 +12,7 @@ function Cards() {
                         <CardItem 
                             src='images/img-1.jpg'
                             text='Meet Dr. Soden'
-                            label='MeetDrSoden'
+                            // label='MeetDrSoden'
                             path='/meet-dr-soden'
                         />
                         <CardItem 

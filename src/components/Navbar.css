@@ -26,7 +26,7 @@
     text-decoration: none;
     font-size: 2rem;
     display: flex;
-    align-items: center;
+    align-items: left;
 }
 
 /* .fa-typo3 {
@@ -40,7 +40,7 @@
     grid-gap: 10px;
     list-style: none;
     text-align: center;
-    width: 48vw;
+    width: 45vw;
     justify-content: end;
     margin-right: 2rem;
 }

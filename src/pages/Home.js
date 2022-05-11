@@ -3,7 +3,7 @@ import '../App.css';
 import LogoSection from '../components/LogoSection';
 import Cards from '../components/Cards';
 import Welcome from '../components/Welcome';
-import Footer from '../components/Footer';
+
 
 function Home() {
     return (
@@ -11,7 +11,6 @@ function Home() {
             <LogoSection />
             <Welcome />
             <Cards />
-            <Footer />
         </>
     );
 }

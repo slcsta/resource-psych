@@ -22,8 +22,8 @@ const AccordionContainer = styled.div`
 `;
 
 const Wrap = styled.div`
-    background: #272727;
-    color: #fff;
+    background: #;
+    color: #;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -39,22 +39,26 @@ const Wrap = styled.div`
     span { 
         margin-right: 1.5rem;
     }
-
-
 `;
 
 const Dropdown = styled.div `
     backround: #1c1c1c1c;
-    color: #00ffb9;
+    padding: 4rem;
+    color: #;
     width: 100%;
     height: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-bottom: 1px solid #00ffb9;
-    border-top: 1px solid #00ffb9;
-    `;
+    border-bottom: 1px solid #000000;
+    border-top: 1px solid #000000;
+
+    p {
+        padding: 4rem;
+        font-size: 20px;
+    }
+`;
 
 
 const Accordion = () => {
