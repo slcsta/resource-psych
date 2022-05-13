@@ -11,7 +11,7 @@ function Pages() {
     return (
         <>
             <Routes>
-                <Route path="/" element={<Home/>}/>
+                <Route path="/resource-psych/" element={<Home/>}/>
                 <Route path="/meet-dr-soden" element={<MeetDrSoden/>}/>
                 <Route path="/services" element={<Services/>}/>
                 <Route path="/scheduling" element={<Scheduling/>}/>
