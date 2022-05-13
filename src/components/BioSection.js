@@ -6,7 +6,7 @@ function BioSection() {
     return (
         <>
             <section class="hero" id="about">
-                <img class="hero-img" loading="lazy" id="avatar" src='images/img-1.jpg' alt="Matthew Soden, M.D." />
+                <img class="hero-img" loading="lazy" id="avatar" src='./resource-psych/images/img-1.jpg' alt="Matthew Soden, M.D." />
                     <div class="bio animate__animated animate__shakeX">
                         <h2 class="bio-title">Matthew Soden, M.D.</h2>
                         <br></br>
