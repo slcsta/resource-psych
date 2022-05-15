@@ -1,6 +1,7 @@
 import React from 'react';
 import './LogoSection.css'
 import '../App.css'
+//import '../App.js'
 
 function LogoSection() {
     return (
