@@ -11,7 +11,7 @@ export const Button = ({children, type, onClick, buttonStyle, buttonSize}) => {
     const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
 
     return (
-        <a href="https://luminello.com/features/patient-client-portal/" className='btn-mobile'>
+        <a href="https://luminello.com/features/patient-client-portal/" target="_blank" rel='noopener noreferrer' className='btn-mobile'>
             <button
                 className={`btn ${checkButtonStyle} ${checkButtonSize}`}
                 onClick={onClick}
