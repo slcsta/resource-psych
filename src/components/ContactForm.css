@@ -1,16 +1,23 @@
-#fcf-form {
-    display: block;
-    margin-top: 30px;
-    text-align: left;
-    background-color: #fff;
-    padding: 30px;
-    padding-bottom: 10px;
-    border: 1px solid #ced4da;
-    border-radius: 0.25rem;
-    max-width: 100%;
+form {
+    width: 25%;
+    margin-top: 5rem;
 }
 
-.fcf-form-group {
+
+#fcf-form {
+    display: block;
+    margin-top: 5px;
+    text-align: left;
+    background-color: #fff;
+    padding: 10px;
+    padding-bottom: 10px;
+    border: 1px solid gray;
+    border-radius: 0.25rem;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.fcf-form-group { 
+    margin-top: 2rem;
     margin-bottom: 1rem;
 }
 
@@ -22,7 +29,19 @@
     flex-wrap: wrap;
     -ms-flex-align: stretch;
     align-items: stretch;
-    width: 100%;
+    max-width: 100%;
+}
+
+input {
+    width: 85%;
+    box-sizing: border-box;
+    height: 25px;
+}
+
+textarea {
+    width: 85%;
+    height: 100px;
+    box-sizing: border-box;
 }
 
 label.fcf-label {

@@ -28,7 +28,7 @@ const ContactForm = () => {
   return (
     <form onSubmit={handleSubmit}>
       <div id="fcf-form">  
-      
+        <h2 className="title">Contact Us</h2>
       <div class="fcf-form-group">
         <label htmlFor="name" class="fcf-label">Name:</label>
         <div class="fcf-input-group">
@@ -51,7 +51,7 @@ const ContactForm = () => {
       </div>
 
       <div class="fcf-form-group">
-        <Button buttonStyle='btn--outline'>Email Us</Button>
+        <Button buttonStyle='btn--outline'>Submit</Button>
       {/* <button type="submit">{status}</button> */}
       </div>
       

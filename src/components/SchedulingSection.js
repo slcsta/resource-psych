@@ -12,8 +12,7 @@ function SchedulingSection() {
                 <h1>Request a Consultation</h1><br></br>
                     <Button buttonStyle='btn--outline'>Schedule Online</Button><br></br><br></br>
                 
-                <h1>For Questions Contact Us Via Email</h1>
-                <ContactForm />
+                    <ContactForm />
             </div>
         </>
 
