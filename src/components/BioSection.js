@@ -5,12 +5,12 @@ import '../App.css'
 function BioSection() {
     return (
         <>
-            <section class="hero" id="about">
-                <img class="hero-img" loading="lazy" id="avatar" src='./images/img-1.jpg' alt="Matthew Soden, M.D." />
-                    <div class="bio animate__animated animate__shakeX">
-                        <h2 class="bio-title">Matthew Soden, M.D.</h2>
+            <section className="hero" id="about">
+                <img className="hero-img" loading="lazy" id="avatar" src='./images/img-1.jpg' alt="Matthew Soden, M.D." />
+                    <div className="bio animate__animated animate__shakeX">
+                        <h2 className="bio-title">Matthew Soden, M.D.</h2>
                         <br></br>
-                        <p class="bio-text">
+                        <p className="bio-text">
                         Matthew Soden MD is a board-certified psychiatrist who is subspeciality trained in child and adolescent psychiatry.
                         Dr. Soden graduated from Columbia University and Case Western Reserve University School of Medicine.  
                         He completed residency training in pediatrics at UCSF Children’s Hospital Oakland and then went on to pursue psychiatry 
