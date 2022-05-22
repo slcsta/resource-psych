@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/resource-psych/static/css/main.1aadce1f.css",
-    "main.js": "/resource-psych/static/js/main.1a4ff16c.js",
-    "static/js/787.fbff4a03.chunk.js": "/resource-psych/static/js/787.fbff4a03.chunk.js",
-    "index.html": "/resource-psych/index.html",
-    "main.1aadce1f.css.map": "/resource-psych/static/css/main.1aadce1f.css.map",
-    "main.1a4ff16c.js.map": "/resource-psych/static/js/main.1a4ff16c.js.map",
-    "787.fbff4a03.chunk.js.map": "/resource-psych/static/js/787.fbff4a03.chunk.js.map"
+    "main.css": "/static/css/main.1aadce1f.css",
+    "main.js": "/static/js/main.3af3bf10.js",
+    "static/js/787.fbff4a03.chunk.js": "/static/js/787.fbff4a03.chunk.js",
+    "index.html": "/index.html",
+    "main.1aadce1f.css.map": "/static/css/main.1aadce1f.css.map",
+    "main.3af3bf10.js.map": "/static/js/main.3af3bf10.js.map",
+    "787.fbff4a03.chunk.js.map": "/static/js/787.fbff4a03.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1aadce1f.css",
-    "static/js/main.1a4ff16c.js"
+    "static/js/main.3af3bf10.js"
   ]
 }
