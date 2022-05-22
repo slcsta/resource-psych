@@ -29,28 +29,28 @@ const ContactForm = () => {
     <form onSubmit={handleSubmit}>
       <div id="fcf-form">  
         <h2 className="title">Contact Us</h2>
-      <div class="fcf-form-group">
-        <label htmlFor="name" class="fcf-label">Name:</label>
-        <div class="fcf-input-group">
+      <div className="fcf-form-group">
+        <label htmlFor="name" className="fcf-label">Name:</label>
+        <div className="fcf-input-group">
           <input type="text" placeholder="Your Name" id="name" required />
         </div>
       </div>
 
-      <div class="fcf-form-group">
-        <label htmlFor="email" class="fcf-label">Email:</label>
-        <div class="fcf-input-group">
+      <div className="fcf-form-group">
+        <label htmlFor="email" className="fcf-label">Email:</label>
+        <div className="fcf-input-group">
           <input type="email" placeholder="Your Email" id="email" required />
         </div>
       </div>
 
-      <div class="fcf-form-group">
-        <label htmlFor="message" class="fcf-label">Message:</label>
-        <div class="fcf-input-group">
+      <div className="fcf-form-group">
+        <label htmlFor="message" className="fcf-label">Message:</label>
+        <div className="fcf-input-group">
           <textarea id="message" placeholder="Your Message" required />
         </div>
       </div>
 
-      <div class="fcf-form-group">
+      <div className="fcf-form-group">
         <Button buttonStyle='btn--outline'>Submit</Button>
       {/* <button type="submit">{status}</button> */}
       </div>
