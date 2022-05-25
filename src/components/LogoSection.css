@@ -8,7 +8,7 @@ video {
 
 .logo-container {
     /* background: center center/cover no-repeat; */
-    height: 100vh;
+    height: 85vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -21,7 +21,7 @@ video {
 .logo-container h1 {
     color: #fff;
     font-size: 100px;
-    margin-top: -360px;
+    margin-top: -395px;
 }
 
 .logo-container p {

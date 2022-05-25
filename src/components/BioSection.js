@@ -8,7 +8,8 @@ function BioSection() {
             <section className="hero" id="about">
                 <img className="hero-img" loading="lazy" id="avatar" src='./images/img-1.jpg' alt="Matthew Soden, M.D." />
                     <div className="bio animate__animated animate__shakeX">
-                        <h2 className="bio-title">Matthew Soden, M.D.</h2>
+                        <h1 className="bio-title">Matthew Soden, M.D.</h1>
+                        <br></br>
                         <br></br>
                         <p className="bio-text">
                         Matthew Soden MD is a board-certified psychiatrist who is subspeciality trained in child and adolescent psychiatry.
