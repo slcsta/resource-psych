@@ -37,15 +37,8 @@
     margin: auto;
     padding: 50px 30px 50px 50px;
     min-height: calc(100vh - 260px);
-}
+  }
 
-/* .circular--landscape { 
-    display: flex; 
-    float: left;
-    position: relative; 
-    overflow: hidden; 
-    border-radius: 50%; 
-}  */
 
 .hero img {
    height: 35rem;

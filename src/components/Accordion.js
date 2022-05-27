@@ -10,8 +10,7 @@ const AccordionSection = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    postion: relative;
-    height: 100vh;
+    position: relative;
     background: #fff;
     `;
 
@@ -42,7 +41,7 @@ const Wrap = styled.div`
 `;
 
 const Dropdown = styled.div `
-    backround: #1c1c1c1c;
+    background: #1c1c1c1c;
     padding: 4rem;
     color: #;
     width: 100%;

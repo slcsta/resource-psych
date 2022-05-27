@@ -3,7 +3,7 @@ export const AccordionData = [
     {
         question:'How can I be sure you are the right provider for me or my loved one?', 
         answer: `A good fit with your clinician is important. Part of my treatment approach 
-                is to work collaboratively with patients and families. \n\nInitially we will schedule a brief phone call prior to confirming your first appointment 
+                is to work collaboratively with patients and families. \n Initially we will schedule a brief phone call prior to confirming your first appointment 
                 to discuss your goals. If I feel I can meet your needs we might schedule an initial consultation together. 
                 There are some severe mental health conditions that I am unable to care for in my private 
                 practice and might require the expertise or resources of another clinician or facility.`
