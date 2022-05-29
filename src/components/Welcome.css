@@ -8,10 +8,15 @@
     align-self: center;
 }
 
-h2 {
+.welcome-container h2 {
     align-self: center;
+    line-height: 20px;
 }
 
-p { 
+.welcome-container p { 
     align-self: center;
+    max-width: 52.75rem;
+    text-align: center;
+    line-height: 24px;
+    /* line-height: var(--line-height); */
 }

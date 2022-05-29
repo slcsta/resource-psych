@@ -28,25 +28,22 @@ const ContactForm = () => {
   return (
     <form onSubmit={handleSubmit}>
       <div id="fcf-form">  
-        <h2 className="title">Contact Us</h2>
+        <h3 className="title">Contact Us</h3>
       <div className="fcf-form-group">
-        <label htmlFor="name" className="fcf-label">Name:</label>
         <div className="fcf-input-group">
           <input type="text" placeholder="Your Name" id="name" required />
         </div>
       </div>
 
       <div className="fcf-form-group">
-        <label htmlFor="email" className="fcf-label">Email:</label>
         <div className="fcf-input-group">
           <input type="email" placeholder="Your Email" id="email" required />
         </div>
       </div>
 
       <div className="fcf-form-group">
-        <label htmlFor="message" className="fcf-label">Message:</label>
         <div className="fcf-input-group">
-          <textarea id="message" placeholder="Your Message" required />
+          <textarea id="message" placeholder="Type your message here..." required />
         </div>
       </div>
 

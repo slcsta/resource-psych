@@ -6,7 +6,9 @@ function Welcome() {
         <div className='welcome-container'>
             <h2>Welcome to Resource Family Psychiatry</h2><br></br>
             
-            <p>Telepsychiatry for children, adolescents and adults residing in California or Washington</p><br></br> 
+            <p>This is the private telepsychiatry practice of board-certified psychiatrist Matthew Soden, MD. He provides quality psychiatry care via video conferencing to patients of all ages in California, Colorado and Washington.
+
+</p><br></br> 
                 
             <p></p><br></br>
              
