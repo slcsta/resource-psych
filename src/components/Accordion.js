@@ -15,14 +15,12 @@ const AccordionSection = styled.div`
     `;
 
 const AccordionContainer = styled.div`
-    position: absolute;
+    position: relative;
     top: 30%;
     box-shadow: 2px 10px 35px 1px rgba(153, 153, 153, 0.3);
 `;
 
 const Wrap = styled.div`
-    background: #;
-    color: #;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -41,21 +39,19 @@ const Wrap = styled.div`
 `;
 
 const Dropdown = styled.div `
-    background: #1c1c1c1c;
-    padding: 4rem;
-    color: #;
+    background: #fff;
     width: 100%;
-    height: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-bottom: 1px solid #000000;
-    border-top: 1px solid #000000;
+    
 
     p {
-        padding: 4rem;
-        font-size: 20px;
+        position: relative;
+        width: 500px;
+        font-size: 14px;
+        padding-bottom: 1rem;
     }
 `;
 

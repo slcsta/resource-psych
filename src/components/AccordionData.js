@@ -23,15 +23,11 @@ export const AccordionData = [
     },
     {
         question:'What are your fees?', 
-        answer: `Initial consultation:
-        First 60 minute appointment (evaluation, assessment, reviewing collateral information): $350
-        Second 60 minute appointment (evaluation, treatment recommendations): $350
-        
-        Follow up appointments:
-        20-30 minutes including documentation time: $225
-        
-        Psychotherapy
-        45-50 minute psychotherapy appointment with or without medication management: $350`
+        answer: 'Initial consultation: First 60 minute appointment (evaluation, assessment, reviewing collateral information): $350\n' + 
+        '\n Second 60 minute appointment (evaluation, treatment recommendations): $350\n' 
+        + 'Follow up appointments: 20-30 minutes including documentation time: $225\n'
+        + 'Psychotherapy'
+        + '45-50 minute psychotherapy appointment with or without medication management: $350'
     },
     {
         question:'Who do you see?', 
