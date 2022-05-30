@@ -31,6 +31,9 @@ const Wrap = styled.div`
     h1 {
         padding: 2rem;
         font-size: 2rem;
+        color: #777;
+        display: block;
+        font-weight: 300;
     }
 
     span { 
@@ -52,6 +55,7 @@ const Dropdown = styled.div `
     
 
     p {
+        color: #777;
         position: relative;
         width: 500px;
         font-size: 16px;

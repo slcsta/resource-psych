@@ -31,7 +31,6 @@
 .hero {
     display: flex;
     align-items: center;
-    justify-content: center;
     gap: 2.5rem;
     max-width: 68.75rem;
     margin: auto;
@@ -65,19 +64,24 @@
   } */
 
   .bio.animate__animated.animate__shakeX {
-    margin-top: -300px;
-    padding: 0, 80, 0, 50;
+    padding-left: 3rem;
+    margin-top: -290px;
   }
 
-  .bio h1 {
+  h1.bio-title {
     display: inline;
-
+    line-height: 46px;
+    font-size: 2rem;
+    color: #777;
+    font-weight: 300;
   }
   
-  .bio p {
-    display: inline;
-    text-align: justify;
+  p {
     line-height: var(--line-height);
+    padding: 0.5rem 0;
+    font-size: 18px;
+    color: #777;
+    
     
   }
 
