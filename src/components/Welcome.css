@@ -19,5 +19,6 @@
     max-width: 57rem;
     text-align: center;
     line-height: 36px;
+    color: #fff;
     /* line-height: var(--line-height); */
 }
