@@ -18,6 +18,7 @@ const AccordionContainer = styled.div`
     position: relative;
     top: 30%;
     box-shadow: 2px 10px 35px 1px rgba(153, 153, 153, 0.3);
+    max-width: 48.75rem;
 `;
 
 const Wrap = styled.div`
@@ -57,7 +58,7 @@ const Dropdown = styled.div `
     p {
         color: #777;
         position: relative;
-        width: 500px;
+        max-width: 500px;
         font-size: 16px;
     }
 `;

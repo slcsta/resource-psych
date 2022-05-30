@@ -3,7 +3,8 @@ export const AccordionData = [
     {
         question:'How do I book an appointment?', 
         answer: `Initially we will schedule a brief phone call prior to confirming your first appointment to discuss your goals. If I feel I can meet your needs, we might schedule an initial consultation together.\n 
-There are some severe mental health conditions that I am unable to care for in my private practice and might require the expertise or resources of another clinician or facility.`
+There are some severe mental health conditions that I am unable to care for in my private practice and might require the expertise or resources of another clinician or facility.\n
+If you would like to schedule a consultation, please click the "New Patients" button at the top of the page.`
     },
     {
         question:'Do you accept insurance?',
