@@ -7,7 +7,7 @@ function FaqsSection() {
     return (
         <>
             <div className='faqs-container'>
-                <h1>FAQs</h1>
+                <h1>Frequently Asked Questions</h1>
                 <Accordion />
             </div>
         </>
