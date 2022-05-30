@@ -45,13 +45,16 @@ const Dropdown = styled.div `
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    .css-fix {
+        white-space: pre-wrap;
+    }
     
 
     p {
         position: relative;
         width: 500px;
-        font-size: 14px;
-        padding-bottom: 1rem;
+        font-size: 16px;
     }
 `;
 
@@ -80,7 +83,7 @@ const Accordion = () => {
                             </Wrap>
                             {clicked === index ? (
                             <Dropdown>
-                            <p>{item.answer}</p>
+                            <p className="css-fix">{item.answer}</p>
                             </Dropdown>
                             ) : null}
                             </>

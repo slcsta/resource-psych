@@ -4,9 +4,9 @@ import './Welcome.css';
 function Welcome() {
     return (
         <div className='welcome-container'>
-            <h2>Welcome to Resource Family Psychiatry</h2><br></br>
+            <h2>Welcome</h2><br></br>
             
-            <p>This is the private telepsychiatry practice of board-certified psychiatrist Matthew Soden, MD. He provides quality psychiatry care via video conferencing to patients of all ages in California, Colorado and Washington.
+            <p>Resource Family Psychiatry is the private telepsychiatry practice of board-certified psychiatrist Matthew Soden, MD. Dr. Soden provides quality psychiatric care via video conferencing to patients of all ages in California, Colorado, and Washington states.
 
 </p><br></br> 
                 
