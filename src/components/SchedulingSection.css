@@ -23,6 +23,14 @@
     align-items: center;
 }
 
+#address-container ul {
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 10px;
+
+}
+
 #contact-container p {
     color: #777;
     text-align: center;
