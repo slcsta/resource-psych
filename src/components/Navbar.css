@@ -12,8 +12,8 @@
 
 .navbar-container {
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
+    justify-content: center;
+    align-items: center;
     height: 80px;
     max-width: 1650px;
 }
@@ -28,11 +28,6 @@
     display: flex;
     align-items: center;
 }
-
-/* .fa-typo3 {
-    margin-left: 0.5rem;
-    font-size: 1.8rem;
-} */
 
 .nav-menu {
     display: grid;
@@ -80,7 +75,6 @@
         position: relative;
     }
 
-
     .nav-menu {
         display: flex;
         flex-direction: column;
@@ -126,7 +120,7 @@
         position: absolute;
         top: 0;
         right: 0;
-        transform: translate(1100%, 60%);
+        transform: translate(-100%, 60%);
         font-size: 1.8rem;
         cursor: pointer;
     }

@@ -19,6 +19,7 @@ const AccordionContainer = styled.div`
     top: 30%;
     box-shadow: 2px 10px 35px 1px rgba(153, 153, 153, 0.3);
     max-width: 48.75rem;
+    margin-bottom: 2rem;
 `;
 
 const Wrap = styled.div`
