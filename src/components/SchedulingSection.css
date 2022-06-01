@@ -31,7 +31,7 @@
     padding-top: 0.5rem;
 }
 
-ul {
+.address-container > ul {
     color: darkgray;
     text-align: center;
     columns: 3;
