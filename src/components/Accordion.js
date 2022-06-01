@@ -50,6 +50,7 @@ const Dropdown = styled.div `
     flex-direction: column;
     justify-content: center;
     align-items: center;
+   
 
     .css-fix {
         white-space: pre-wrap;
@@ -61,6 +62,8 @@ const Dropdown = styled.div `
         position: relative;
         max-width: 500px;
         font-size: 16px;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 `;
 

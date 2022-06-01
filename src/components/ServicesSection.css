@@ -48,11 +48,8 @@
     columns: 2;
     -webkit-columns: 2;
     -moz-columns: 2;
-    /* display: grid;
-    grid-template-columns: repeat(3, auto); */
     grid-gap: 40px;
-    padding: 0.5rem;
-    /* list-style-type: none; */
+    padding: 0.5rem, 1rem;
 }
 
 .services-container li {

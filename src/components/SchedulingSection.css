@@ -29,6 +29,8 @@
     font-size: 26px;
     line-height: 36px;
     padding-top: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .address-container > ul {
@@ -37,8 +39,6 @@
     columns: 3;
     -webkit-columns: 3;
     -moz-columns: 2;
-    /* display: grid;
-    grid-template-columns: repeat(3, auto); */
     grid-gap: 40px;
     list-style-type: none;
 

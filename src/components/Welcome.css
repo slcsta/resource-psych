@@ -20,5 +20,5 @@
     text-align: center;
     line-height: 36px;
     color: #fff;
-    /* line-height: var(--line-height); */
+    padding: 1rem;
 }
