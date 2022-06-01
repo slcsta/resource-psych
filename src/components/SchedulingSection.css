@@ -19,15 +19,28 @@
 }
 
 #contact-container {
-    padding-top: 2rem;
+    padding: 2rem;
     align-items: center;
 }
 
-#address-container ul {
-    padding-top: 2rem;
-    display: grid;
-    grid-template-columns: repeat(3, auto);
-    grid-gap: 10px;
+.address-container > p {
+    color: #777;
+    text-align: center;
+    font-size: 26px;
+    line-height: 36px;
+    padding-top: 0.5rem;
+}
+
+ul {
+    color: darkgray;
+    text-align: center;
+    columns: 3;
+    -webkit-columns: 3;
+    -moz-columns: 2;
+    /* display: grid;
+    grid-template-columns: repeat(3, auto); */
+    grid-gap: 40px;
+    list-style-type: none;
 
 }
 

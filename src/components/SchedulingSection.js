@@ -15,20 +15,22 @@ function SchedulingSection() {
                         <p><tel>Phone: <a href="tel:833-807-2167">833-807-2167</a></tel></p>       
                         <p><fax>Fax: <a href="fax:253-215-4399">253-215-4399</a></fax></p>   
                     </div>
-                    <div> 
-                    
-                    <ul className='address-container'>
-                        <h1>Locations</h1>
-                        <li>1300 Clay St, Suite 600
-                            Oakland, CA 94612
+                    <div className='address-container'> 
+                    <p>Locations:</p>
+                    <ul className='columns' data-columns='2'>
+                        <li><p>California</p>
+                            1300 Clay St, Suite 600<br></br>
+                            Oakland, CA 94612<br></br>
                             833-807-2167
-                        </li>
-                        <li>501 S Cherry St, Suite 1100
-                            Denver, CO 80246
+                        </li><br></br>
+                        <li><p>Colorado</p>
+                            501 S Cherry St, Suite 1100<br></br>
+                            Denver, CO 80246<br></br>
                             833-807-2167
-                        </li>
-                        <li>8 S 1st Ave, Suite G
-                            Yakima, WA 98902
+                        </li><br></br>
+                        <li><p>Washington</p>
+                            8 S 1st Ave, Suite G<br></br>
+                            Yakima, WA 98902<br></br>
                             206-717-7393
                         </li>
                     </ul>
