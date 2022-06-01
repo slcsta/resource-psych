@@ -44,6 +44,15 @@
     line-height: var(--line-height);
     font-size: 18px;
     color: #777;
+    text-align: left;
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    /* display: grid;
+    grid-template-columns: repeat(3, auto); */
+    grid-gap: 40px;
+    padding: 0.5rem;
+    /* list-style-type: none; */
 }
 
 .services-container li {
