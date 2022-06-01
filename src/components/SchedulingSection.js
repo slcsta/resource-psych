@@ -27,7 +27,7 @@ function SchedulingSection() {
                             Denver, CO 80246
                             833-807-2167
                         </li>
-                        <li>8 S 1st Ave, Suite GG
+                        <li>8 S 1st Ave, Suite G
                             Yakima, WA 98902
                             206-717-7393
                         </li>

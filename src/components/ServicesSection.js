@@ -10,7 +10,7 @@ function ServicesSection() {
                     <p>Dr. Soden works collaboratively with patients and their families and believes in a holistic
                     approach to care that considers the biological, psychological, and social factors that contribute
                     to emotional health. His therapeutic approach is warm, compassionate, and nonjudgmental
-                    with the aim to create an safe environment for progress to take place.</p>
+                    with the aim to create a safe environment for progress to take place.</p>
                     <p>He has expertise in the evaluation and treatment of the following:</p>
                     <ul>
                         <li>neurodevelopmental issues</li>
