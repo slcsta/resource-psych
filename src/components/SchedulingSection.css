@@ -34,6 +34,7 @@
 }
 
 .address-container > ul {
+    display: flex;
     color: darkgray;
     text-align: center;
     columns: 3;
@@ -73,4 +74,13 @@
     background-color: #242424;
     border: 1px solid black;
     color: #fff;
+}
+
+@media screen and (max-width: 960px) {
+
+    .address-container > ul {
+        padding-top: 10px;
+        flex-direction: column;
+    }
+
 }

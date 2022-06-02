@@ -22,12 +22,12 @@ function SchedulingSection() {
                             1300 Clay St, Suite 600<br></br>
                             Oakland, CA 94612<br></br>
                             833-807-2167
-                        </li><br></br>
+                        </li>
                         <li><p>Colorado</p>
                             501 S Cherry St, Suite 1100<br></br>
                             Denver, CO 80246<br></br>
                             833-807-2167
-                        </li><br></br>
+                        </li>
                         <li><p>Washington</p>
                             8 S 1st Ave, Suite G<br></br>
                             Yakima, WA 98902<br></br>

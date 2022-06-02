@@ -9,7 +9,7 @@
     max-width: 48.75rem;
     margin: auto;
     background: #fff;
-    padding-top: 2rem;
+    padding: 2rem;
 }
 
 .services-section h1 {
@@ -37,6 +37,9 @@
     line-height: var(--line-height);
     font-size: 18px;
     color: #777;
+    padding-left: 0.5rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
 }
 
 .services-container ul {
