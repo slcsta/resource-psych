@@ -121,9 +121,10 @@ button {
 
     .navbar-logo {
         position: absolute;
-        top: 0;
-        left: 0;
-        transform: translate(10%, 10%);
+        top: 15px;
+        margin-left: 55%;
+        font-size: 120%; 
+        /* transform: translate(10%, 10%); */
     }
 
     .menu-icon {

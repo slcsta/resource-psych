@@ -43,7 +43,7 @@
    height: 35rem;
    width: auto;
    float: left;
-   padding: 30px 20px 50px 20px;
+   padding: 30px 20px;
    /* border-radius: 200% */
 }
 
@@ -100,17 +100,19 @@
     }
 
     .bio-matt {
-      padding: 20px;
+      padding: 10px;
       max-width: 100%;
       flex-direction: column;
       /* align-items: center; */
-      margin-top: 5px;
+      margin-top: 1px;
       text-align: justify;
 
     }
 
     .bio-matt > h1 {
       flex-direction: column;
+      float: left;
+      padding-bottom: 10px;
 
     }
 
