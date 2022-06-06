@@ -14,13 +14,12 @@
     color: #777;
     display: block;
     font-weight: 300;
-    margin-bottom: 10px;
     padding-bottom: 1rem;
 }
 
 #contact-container {
-    padding: 2rem;
     align-items: center;
+    margin-bottom: 1rem;
 }
 
 .address-container > p {
@@ -28,9 +27,8 @@
     text-align: center;
     font-size: 26px;
     line-height: 36px;
-    padding-top: 0.5rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 1rem;
+    
 }
 
 .address-container > ul {

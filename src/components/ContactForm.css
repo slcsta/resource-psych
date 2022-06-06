@@ -29,6 +29,10 @@ form {
     margin-bottom: 1rem;
 }
 
+.fcf-form-group > a {
+    margin-left: 0;
+}
+
 .fcf-input-group {
   border: medium none !important;
   margin: 0 0 10px;
