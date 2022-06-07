@@ -21,7 +21,7 @@
 .navbar-logo {
     color: #fff;
     justify-self: start;
-    margin-left: 50px;
+    margin-left: 10px;
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
@@ -30,13 +30,19 @@
     align-items: center;
 }
 
+.navbar-logo > img {
+    height: 110px;
+    width: auto;
+    padding-right: 10px;
+}
+
 .nav-menu {
     display: grid;
     grid-template-columns: repeat(5, auto);
     grid-gap: 10px;
     list-style: none;
     text-align: center;
-    width: 65vw;
+    width: 60vw;
     /* width: 45vw; */
     justify-content: end;
     margin-right: 2rem;
@@ -92,7 +98,7 @@ button {
         width: 100%;
         height: 90vh;
         position: absolute;
-        top: 100px;
+        top: 115px;
         left: -100%;
         opacity: 1;
         transition: all 0.5s ease;
@@ -125,9 +131,9 @@ button {
 
     .navbar-logo {
         position: absolute;
-        top: 15px;
-        margin-left: 55%;
-        font-size: 120%; 
+        top: 10px;
+        margin-left: 50%;
+        font-size: 115%; 
         /* transform: translate(10%, 10%); */
     }
 

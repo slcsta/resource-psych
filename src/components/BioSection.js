@@ -6,7 +6,7 @@ function BioSection() {
     return (
         <>
             <section className="hero">
-                <img className="hero-img" src='./images/img-1.jpg' alt="Matthew Soden, M.D." />
+                <img className="dr-img" src='./images/img-1.jpg' alt="Matthew Soden, M.D." />
                     <div className="bio-matt">
                         <h1 className="bio-title">Matthew Soden, MD</h1>
                         <p className="bio-text">
