@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import './Accordion.css';
 import  { AccordionData } from './AccordionData';
 import styled from 'styled-components';
 import { IconContext } from 'react-icons';
