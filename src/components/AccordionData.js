@@ -12,14 +12,13 @@ If you would like to schedule a consultation, please contact us.`
     },
     {
         question:'What are your Payment Policies?', 
-        answer: `Resource Family Psychiatry operates on a fee for service basis and does not participate directly with insurance plans. This likely means that your visits with me will be considered “out of network”.\n 
-Payments would be made directly to Resource Family Psychiatry and, depending on your insurance, all or a portion of your visit might be reimbursed by your insurance company. You will be provided with a “superbill” which is a type of receipt that you can give to your insurance company for reimbursement purposes.\n 
-Please contact your insurance company directly to determine your specific coverage and complete any necessary paperwork.`
+        answer: `You would make payments directly to Resource Family Psychiatry. We accept credit cards and ACH bank payments. Payment is due at the time of service.\n 
+Depending on your insurance, all or a portion of your visit might be reimbursed by your insurance company.  You will be provided with a “superbill” which is a type of receipt that you can give to your insurance company for reimbursement purposes. Please contact your insurance company directly to determine your specific coverage and complete any necessary paperwork.`
     },
     {
         question:'What are your fees?', 
-        answer: `Initial consultation (2 visits):\n 
-First 60 minute appointment: (evaluation, assessment, reviewing collateral information): $295 \n 
+        answer: <span className="bold">`Initial consultation`</span> + `(2 visits):\n 
+First 60 minute appointment: (evaluation, assessment, reviewing collateral information): $295\n 
 Second 60 minute appointment: (evaluation, treatment recommendations): $295\n 
 Follow-up appointments: 20-30 minutes including documentation time: $205\n 
 Psychotherapy: 45-50 minute psychotherapy appointment with or without medication management: $295\n`  
