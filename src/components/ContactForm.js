@@ -2,7 +2,7 @@ import './ContactForm.css'
 import React, { useRef } from "react";
 import emailjs from 'emailjs-com';
 // require('dotenv').config()
-// import { Button } from './Button.js';
+import { Button } from './Button.js';
 
 
 const ContactForm = () => {
@@ -25,8 +25,10 @@ const ContactForm = () => {
       )
       .then((result) => {
           console.log(result.text);
+          alert("Success! Your message has been sent.")
       }, (error) => {
           console.log(error.text);
+          alert("Error! Message failed.", error)
       });
       e.target.reset()
   };
@@ -78,8 +80,8 @@ const ContactForm = () => {
       </div>
 
       <div className="fcf-form-group">
-        {/* <Button buttonStyle='btn--outline'>Submit</Button> */}
-        <input type="submit" className="btn btn-info" value="Send Message"></input>
+        <Button buttonStyle='btn--outline' type="submit" value="Send Message">Send Message</Button>
+        
       </div>
     </div>
   </form>

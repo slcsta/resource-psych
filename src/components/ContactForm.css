@@ -63,6 +63,7 @@ label.fcf-label {
 }
 
 .fcf-form-group .btn--outline {
+    background-color: #fff;
     color: gray;
     border: 1px solid orange;
 }
@@ -70,28 +71,6 @@ label.fcf-label {
 .fcf-form-group .btn--outline:hover {
     background-color: #242424;
     color: #fff;
-}
-
-.btn {
-    padding: 8px 20px;
-    border-radius: 10px;
-    outline: none;
-    cursor: pointer;
-    margin-right: 10px
-}
-
-.btn--primary {
-    background-color: var(--primary);
-    color: #242424;
-    border: 1px solid var(--primary);
-}
-
-.btn--outline {
-    background-color: transparent;
-    color: #fff;
-    padding: 8px 20px;
-    border: 1px solid var(--primary);
-    transition: all 0.3s ease-out;
 }
 
 
