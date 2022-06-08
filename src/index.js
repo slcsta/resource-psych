@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { HashRouter } from 'react-router-dom';
+import ScrollToTop from './components/ScrollToTop'
 // import { BrowserRouter as Router } from 'react-router-dom';
 // import { Provider } from 'react-redux';
 // import store from './store';
@@ -12,6 +13,7 @@ ReactDOM.render(
   <React.StrictMode>
     {/* <Provider store={store}> */}
     <HashRouter basename={process.env.PUBLIC_URL}>
+    <ScrollToTop />
     {/* <Router basename={process.env.PUBLIC_URL}> */}
       <App />
     </HashRouter>
