@@ -17,7 +17,7 @@ Depending on your insurance, all or a portion of your visit might be reimbursed 
     },
     {
         question:'What are your fees?', 
-        answer: <span className="bold">`Initial consultation`</span> + `(2 visits):\n 
+        answer: `Initial consultation (2 visits):\n 
 First 60 minute appointment: (evaluation, assessment, reviewing collateral information): $295\n 
 Second 60 minute appointment: (evaluation, treatment recommendations): $295\n 
 Follow-up appointments: 20-30 minutes including documentation time: $205\n 
