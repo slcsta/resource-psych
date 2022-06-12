@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import { IconContext } from 'react-icons';
 import { FiPlus, FiMinus } from 'react-icons/fi';
 
+
 const AccordionSection = styled.div`
     display: flex;
     flex-direction: column;
@@ -49,12 +50,10 @@ const Dropdown = styled.div `
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   
 
     .css-fix {
         white-space: pre-wrap;
     }
-    
 
     p {
         color: #777;
@@ -67,9 +66,13 @@ const Dropdown = styled.div `
 `;
 
 
-const Accordion = () => {
-    const [clicked, setClicked] = useState(false)
 
+const Accordion = () => {
+    // const reg1 = /Initial consultation/;
+    // const reg2 = /Follow-up appointments/;
+    // const reg3 = /Psychotherapy/;
+    const [clicked, setClicked] = useState(false)
+    
     const toggle = index => {
         if(clicked === index) {
             //if clicked question is already active, then close it
@@ -83,6 +86,8 @@ const Accordion = () => {
             <AccordionSection>
                 <AccordionContainer>
                     {AccordionData.map((item, index) => {
+                        
+                        // item.answer.match(reg3).bold()
                         return (
                             <>
                             <Wrap onClick={() => toggle(index)} key={index}>
@@ -91,7 +96,7 @@ const Accordion = () => {
                             </Wrap>
                             {clicked === index ? (
                             <Dropdown>
-                            <p className="css-fix">{item.answer}</p>
+                                <p className="css-fix">{item.answer}</p>
                             </Dropdown>
                             ) : null}
                             </>
@@ -102,6 +107,8 @@ const Accordion = () => {
         </IconContext.Provider>
     );
 };
+
+
 
 export default Accordion;
 
