@@ -18,11 +18,9 @@ No shows/rescheduling with less than 24 business hours notice will be charged fo
     },
     {
         question:'What are your fees?',
-        answer: `Initial consultation (2 sessions, each lasting 60 minutes):\n 
-First 60 minute appointment - evaluation including discussion with patient or guardian (if applicable), reviewing medical records and other collateral information: $295\n 
-Second 60 minute appointment - evaluation including discussion with patient or guardian (if applicable), treatment recommendations: $295\n 
-Follow-up appointment - 20 to 30 minutes including documentation time: $205\n 
-Psychotherapy appointment - 45 to 50 minutes with or without medication management: $295\n`,       
+        answer: `Initial consultation - 90 minutes: $450\n 
+Follow-up appointment - 20 to 30 minutes including documentation time: $175\n 
+Psychotherapy appointment - 45 to 50 minutes with or without medication management: $285\n`,       
         },
     {
         question:'Who do you see?', 
