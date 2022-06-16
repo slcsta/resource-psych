@@ -1,36 +1,6 @@
-/* .bio-container {
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
-    object-fit: contain;
-}
-
-.bio-container > h1 {
-    color: #474242;
-    font-size: 100px;
-    margin-top: -300px;
-} */
-/* .hero {
-    display: grid;
-    padding: 2rem;
-    grid-template-columns: 300px 1fr;
-    gap: 1rem;
-    align-items: left;
-    max-width: 800px;
-    margin: 0 auto;
-    font: 500 100%/1.5 system-ui;
-  } */
-
-/* section {
-    min-height: 100vh; /* minus the height of the footer */
 
 .hero {
     display: flex;
-    /* align-items: left; */
     gap: 3rem;
     max-width: 68.75rem;
     margin: auto;
@@ -40,31 +10,11 @@
 
 
 .hero .dr-img {
-   /* height: 35rem; */
-   /* height: auto; */
    max-height: 100%;
    width: auto;
    float: left;
    padding: 25px 15px;
-   /* margin-right: 15px; */
-   /* border-radius: 200% */
 }
-
-/* .hero img {
-    height: 39rem;
-    width: 39rem;
-    border-radius: 50%;
-} */
-
-/* .bio {
-    width: 25rem;
-    padding: 0.625rem;
-    border-radius: 6px;
-  } */
-  
-  /* .bio h1 {
-    margin-bottom: var(--top-bottom);
-  } */
 
   .bio-matt {
     margin-top: 30px;
@@ -80,7 +30,6 @@
   }
   
   .hero p {
-    /* line-height: var(--line-height); */
     padding: 0.5rem 0;
     font-size: 18px;
     line-height: 28px;
@@ -90,9 +39,7 @@
   @media screen and (max-width: 960px) {
 
     .hero {
-      /* padding: 10px 20px; */
       flex-direction: column;
-      /* height: auto; */
       max-width: 100%;
       align-items: center;
     }
@@ -105,10 +52,8 @@
     }
 
     .bio-matt {
-      /* padding: 0px 15px 15px 15px; */
       max-width: 100%;
       flex-direction: column;
-      /* align-items: center; */
       margin-top: 1px;
       margin-bottom: 1px;
       text-align: justify;

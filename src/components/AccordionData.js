@@ -27,7 +27,7 @@ Psychotherapy appointment - 45 to 50 minutes with or without medication manageme
         answer: `Dr. Soden sees patients of all ages residing in the states of California, Colorado and Washington.\n
         `
     }
-    ]
+]
     
 
     

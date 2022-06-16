@@ -1,12 +1,7 @@
 div .footer-container {
     bottom: 0;
     width: 100%;
-    
-
-
 }
-
-
 
 .footer-container {
     position: relative;
@@ -15,11 +10,10 @@ div .footer-container {
     max-width: 100%;
     height: 5rem;
     display: flex;
-    padding-left: 90%;
+    padding-left: 84%;
     align-items: top;
     bottom: 0; 
 }
-
 
 @media screen and (max-width: 960px) {
     .footer-container {

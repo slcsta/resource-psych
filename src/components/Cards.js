@@ -12,7 +12,6 @@ function Cards() {
                         <CardItem 
                             src='./images/img-5.jpg'
                             text='Meet Dr. Soden'
-                            // label='MeetDrSoden'
                             path='/meet-dr-soden'
                         />
                         <CardItem 
@@ -21,8 +20,6 @@ function Cards() {
                             label='Services'
                             path='/services'
                         />
-                        {/* </ul>
-                        <ul className='cards_items'> */}
                         <CardItem 
                             src='./images/img-3.jpg'
                             text='Contact Us'

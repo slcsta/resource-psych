@@ -22,19 +22,13 @@ export const Button = ({
 
     return (
         <>
-        {/* <a href='https://app2.luminello.com/matthewsodenmd/form' 
-        target="_blank" 
-        rel='noopener noreferrer' 
-        className='btn-mobile'> */}
             <button
                 className={`btn ${checkButtonStyle} ${checkButtonSize}`}
                 onClick={onClick}
                 type={type}
-            >
+                >
                 {children}
             </button>
-        {/* </a>  */}
-
-    </>
+        </>
     )
 };

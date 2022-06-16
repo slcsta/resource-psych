@@ -65,12 +65,7 @@ const Dropdown = styled.div `
     }
 `;
 
-
-
 const Accordion = () => {
-    // const reg1 = /Initial consultation/;
-    // const reg2 = /Follow-up appointments/;
-    // const reg3 = /Psychotherapy/;
     const [clicked, setClicked] = useState(false)
     
     const toggle = index => {
@@ -87,7 +82,6 @@ const Accordion = () => {
                 <AccordionContainer>
                     {AccordionData.map((item, index) => {
                         
-                        // item.answer.match(reg3).bold()
                         return (
                             <>
                             <Wrap onClick={() => toggle(index)} key={index}>
