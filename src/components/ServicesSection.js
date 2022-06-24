@@ -22,7 +22,7 @@ function ServicesSection() {
                         <li>psychosis</li>
                         <li>interpersonal conflict</li>
                         <li>cultural stressors</li>
-                        <li>issues that often effect LGBTQ+ individuals</li>
+                        <li>issues that often affect LGBTQ+ individuals</li>
                         <li>professionals in crisis</li>
                     </ul>
                     <p>In addition to medication evaluation, he offers psychotherapy services including individual and
