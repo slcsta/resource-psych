@@ -11,7 +11,7 @@ function SchedulingSection() {
                     <div id='contact-container'>
                         <p><tel>Phone: <a href="tel:833-807-2167">833-807-2167</a></tel></p>       
                         <p><fax>Fax: <a href="fax:253-215-4399">253-215-4399</a></fax></p> 
-                        <p><url>Fax: <a href="https://app2.luminello.com/matthewsodenmd/form">Request a Consultation</a></url></p>   
+                        <p><url><a href="https://app2.luminello.com/matthewsodenmd/form">Request a Consultation</a></url></p>   
                     </div>
                     {/* <div className='address-container'> 
                     <p>Locations:</p>
