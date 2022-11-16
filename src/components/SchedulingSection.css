@@ -1,6 +1,7 @@
 .scheduling-container {
-    margin-top: 40px;
-    margin-bottom: 60px;
+    background: #fff;
+    /* margin-top: 40px; */
+    /* margin-bottom: 60px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,16 +13,17 @@
     color: #777;
     display: block;
     font-weight: 300;
-    padding-bottom: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
 }
 
 #contact-container {
     align-items: center;
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
 }
 
 .address-container > p {
-    color: #777;
+    color: #fff;
     text-align: center;
     font-size: 26px;
     line-height: 36px;
@@ -31,7 +33,7 @@
 
 .address-container > ul {
     display: flex;
-    color: darkgray;
+    color: #777;
     text-align: center;
     columns: 3;
     -webkit-columns: 3;

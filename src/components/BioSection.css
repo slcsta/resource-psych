@@ -1,8 +1,12 @@
 
+section {
+  background: #fff;
+}
+
 .hero {
     display: flex;
     gap: 3rem;
-    max-width: 68.75rem;
+    max-width: 100%;
     margin: auto;
     padding: 50px 30px 50px 50px;
     min-height: calc(100vh - 260px);
@@ -13,28 +17,56 @@
    max-height: 100%;
    width: auto;
    float: left;
-   padding: 25px 15px;
+   padding: 40px 15px;
 }
 
   .bio-matt {
-    margin-top: 30px;
+    margin-top: 35px;
+    padding-right: 0;
   }
 
   .bio-matt > h1 {
     display: inline;
     line-height: 36px;
     font-size: 2rem;
-    color: #777;
+    color: rgb(110, 108, 108);
     font-weight: 300;
     
   }
+
+  #bio-text {
+    line-height: 2.5;
+    font-size: 18px;
+    color: #777;
+  }
   
-  .hero p {
+  #welcome {
     padding: 0.5rem 0;
     font-size: 18px;
     line-height: 28px;
-    color: #777; 
+    color: #777;
   }
+
+  .hero p h4 { 
+    text-decoration: underline;
+  }
+
+  .bio-matt ul {
+    margin-left: 25px;
+    line-height: 28px;
+    font-size: 18px;
+    color: #777;
+    text-align: left;
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    grid-gap: 40px;
+    padding-left: 1rem;
+}
+
+.bio-matt li {
+    margin: 3px;
+}
 
   @media screen and (max-width: 960px) {
 
@@ -64,6 +96,17 @@
       flex-direction: column;
       float: left;
       padding-bottom: 15px;
+      text-align: left;
+    }
+
+    #bio-text {
+      text-align: left;
+    }
+
+    .bio-matt ul {
+        display: flex;
+        flex-flow: column wrap;
+        grid-gap: 10%;
     }
   }
 

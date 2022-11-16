@@ -24,8 +24,8 @@ function Navbar() {
                             <Link to='/' className='nav-links' onClick={closeMobileMenu}>Home</Link></li>
                         <li className='nav-item'> 
                             <Link to='/meet-dr-soden' className='nav-links' onClick={closeMobileMenu}>Meet Dr. Soden</Link></li>
-                        <li className='nav-item'> 
-                            <Link to='/services' className='nav-links' onClick={closeMobileMenu}>Services</Link></li>
+                        {/* <li className='nav-item'> 
+                            <Link to='/services' className='nav-links' onClick={closeMobileMenu}>Services</Link></li> */}
                         <li className='nav-item'> 
                             <Link to='/scheduling' className='nav-links' onClick={closeMobileMenu}>Contact Us</Link></li>
                         <li className='nav-item'> 

@@ -1,9 +1,11 @@
 .faqs-container {
-    padding-top: 2rem;
+    background: #fff;
+    padding-top: 3rem;
     min-height: calc(100vh - 260px);
 }
 
 .faqs-container > h1 {
+    text-align: center;
     padding-bottom: 2rem;
     font-size: 2rem;
     color: #777;
