@@ -19,9 +19,7 @@ function BioSection() {
                         Member: American Psychiatric Association<br></br>
                         Member: American Academy of Child and Adolescent Psychiatry</p><br></br>
 
-                        <p id="welcome">Welcome to the website for my private practice. In addition to this private 
-                        practice, I work at a very busy community mental health center where I see children, 
-                        adolescents and adults. I hope that the information here will be helpful in 
+                        <p id="welcome">Welcome to the website for my private practice. I hope that the information here will be helpful in 
                         determining if I am the right clinician for you or your loved one.</p>
 
                         <p id="welcome">I approach our work together from a caring, nonjudgmental perspective. It’s my job to respect your
